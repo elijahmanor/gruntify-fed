@@ -9,7 +9,7 @@ module.exports = {
   },
   lib_test: {
     files: {
-      src: ['lib/**/*.js', 'test/**/*.js']
+      src: ['src/**/*.js', 'test/**/*.js']
     }
   }
 };
