@@ -1,0 +1,10 @@
+default:
+  - 'jshint'
+#  - 'nodeunit'
+#  - 'concat'
+#  - 'uglify'
+#  - 'notify'
+
+tests:
+  - 'jshint'
+#  - 'nodeunit'
