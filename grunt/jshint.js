@@ -7,7 +7,7 @@ module.exports = {
       src: ['Gruntfile.js']
     }
   },
-  lib_test: {
+  source: {
     files: {
       src: ['src/**/*.js', 'test/**/*.js']
     }
