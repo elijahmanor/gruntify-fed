@@ -2,3 +2,20 @@ h1 {
   color: blue;
   font-size: 24px;
 }
+
+.Thing {
+  background-color: red;
+  transition: 1s;
+
+  &:hover {
+    transform: rotate(180deg);
+  }
+
+  .Thing-head {
+    color: blue;
+  }
+
+  .Thing-head--awesome {
+    color: purple;
+  }
+}

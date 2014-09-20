@@ -1,8 +1,8 @@
 /*globals myapp:true */
 
-'use strict';
-
 describe('myapp', function() {
+  'use strict';
+
   beforeEach(function() {
   });
 

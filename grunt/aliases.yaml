@@ -1,12 +1,19 @@
 default:
   - 'clean'
   - 'jshint'
+  - 'jscs'
   - 'jasmine'
-  - 'concat'
   - 'uglify'
-  - 'cssmin'
+  - 'scsslint'
+  - 'sass'
+  - 'autoprefixer'
   - 'notify'
 
 test:
   - 'jshint'
   - 'jasmine'
+
+lint:
+  - 'jshint'
+  - 'jscs'
+  - 'scsslint'

@@ -1,7 +1,6 @@
 module.exports = {
   options: {
     sourceMap: true,
-    // includePaths: ['src/scss']
   },
   dist: {
     files: {
