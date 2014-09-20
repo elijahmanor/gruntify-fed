@@ -43,7 +43,7 @@
     "grunt-react": "^0.9.0",
     "grunt-replace": "~0.7.7",
     "grunt-scss-lint": "^0.3.2",
-    "grunt-shell": "^0.7.0",
+    "grunt-shell": "^1.1.1",
     "grunt-sizediff": "^0.3.3",
     "grunt-svgmin": "^0.4.0",
     "grunt-uncss": "^0.3.3",
@@ -55,6 +55,7 @@
     "lodash": "~2.4.1",
     "lodash-node": "~2.4.1",
     "traceur": "0.0.33",
-    "grunt-template-jasmine-istanbul": "^0.3.0"
+    "grunt-template-jasmine-istanbul": "^0.3.0",
+    "grunt-sass": "^0.14.1"
   }
 }
