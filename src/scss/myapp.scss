@@ -1,10 +1,8 @@
-h1 {
-  color: blue;
-  font-size: 24px;
-}
-
 .Thing {
+  margin: 5em auto;
+  padding: 5em;
   background-color: red;
+  width: 25em;
   transition: 1s;
 
   &:hover {

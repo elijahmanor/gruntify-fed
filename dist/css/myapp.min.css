@@ -1,0 +1,1 @@
+.Thing{margin:5em auto;padding:5em;background-color:red;width:25em;-webkit-transition:1s;transition:1s;}.Thing:hover{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}.Thing .Thing-head{color:blue;}.Thing .Thing-head--awesome{color:purple;}

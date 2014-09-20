@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "",
+  "sources": ["src/scss/myapp.scss"],
+  "names": [],
+  "mappings": "AAAA,OACE,OAAQ,SACR,QAAS,IACT,iBAAkB,IAClB,MAAO,KACP,WAAY,IAAd,MAAM,OAGF,UAAW,gBACf,OAAO,YAGH,MAAO,MACX,OAAO,qBAGH,MAAO"
+}

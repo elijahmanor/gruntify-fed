@@ -3,7 +3,8 @@ module.exports = {
     options: {
       port: 9001,
       livereload: true,
-      keepalive: true
+      keepalive: true,
+      open: 'http://localhost:9001/src/index.html'
     }
   }
 };
