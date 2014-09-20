@@ -1,0 +1,4 @@
+.git/**/*.js
+.sass-cache/**/*.js
+bower_components/**/*.js
+node_modules/**/*.js
