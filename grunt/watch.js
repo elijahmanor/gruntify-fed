@@ -3,7 +3,7 @@ module.exports = {
     files: '<%= jshint.gruntfile.files.src %>',
     tasks: ['jshint:gruntfile']
   },
-  source: {
+  test: {
     files: '<%= jshint.source.files.src %>',
     tasks: ['jshint:source', 'nodeunit']
   }
