@@ -5,6 +5,6 @@ module.exports = {
   },
   test: {
     files: '<%= jshint.source.files.src %>',
-    tasks: ['jshint:source', 'nodeunit']
+    tasks: ['jshint:source', 'jasmine']
   }
 };

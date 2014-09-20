@@ -9,7 +9,7 @@ module.exports = {
   },
   source: {
     files: {
-      src: ['src/**/*.js', 'test/**/*.js']
+      src: ['src/**/*.js', 'spec/**/*.js']
     }
   }
 };

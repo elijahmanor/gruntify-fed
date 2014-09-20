@@ -1,11 +1,12 @@
 default:
+  - 'clean'
   - 'jshint'
-  - 'nodeunit'
+  - 'jasmine'
   - 'concat'
   - 'uglify'
   - 'cssmin'
   - 'notify'
 
-tests:
+test:
   - 'jshint'
-  - 'nodeunit'
+  - 'jasmine'
