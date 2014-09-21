@@ -1,8 +1,8 @@
 .Thing {
-  margin: 5em auto;
-  padding: 5em;
-  background-color: red;
-  width: 25em;
+  margin: 10em auto;
+  padding: 1em;
+  background-color: green; // #da4f49;
+  width: 17em;
   transition: 1s;
 
   &:hover {
@@ -10,7 +10,8 @@
   }
 
   .Thing-head {
-    color: blue;
+    color: white;
+    font-size: 4em;
   }
 
   .Thing-head--awesome {

@@ -7,8 +7,11 @@ default:
   - 'scsslint'
   - 'sass'
   - 'autoprefixer'
-  - 'wow'
   - 'notify'
+
+neat:
+  - default
+  - 'wow'
 
 awesome:
   - default
