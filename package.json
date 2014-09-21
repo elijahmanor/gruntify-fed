@@ -58,6 +58,7 @@
     "grunt-template-jasmine-istanbul": "^0.3.0",
     "grunt-sass": "^0.14.1",
     "grunt-play": "^0.1.0",
-    "grunt-wow": "^0.1.4"
+    "grunt-wow": "^0.1.4",
+    "grunt-sassdoc": "^1.0.3"
   }
 }

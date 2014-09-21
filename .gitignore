@@ -6,6 +6,7 @@ bin-release/
 # Other files and folders
 .settings/
 .DS_Store
+.grunt/
 node_modules/
 scss-lint-report.xml
 

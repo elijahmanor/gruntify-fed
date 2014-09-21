@@ -10,9 +10,7 @@ default:
   - 'notify'
 
 awesome:
-  - play:gruntBegin
   - default
-  - play:gruntEnd
   - shell:greet:'EAT MOR PIG! --Chick-fil-A'
   - shell:say:'EAT MORE PIG!'
 

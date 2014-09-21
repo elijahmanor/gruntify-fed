@@ -1,10 +1,10 @@
 module.exports = {
   test: {
     files: '<%= jshint.source.files.src %>',
-    tasks: ['lint', 'jasmine']
+    tasks: ['play:grunt', 'lint', 'jasmine']
   },
   sass: {
     files: 'src/scss/**/*.scss',
-    tasks: ['scsslint', 'sass']
+    tasks: ['play:grunt', 'scsslint', 'sass']
   }
 };
