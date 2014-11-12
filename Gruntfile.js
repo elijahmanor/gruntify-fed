@@ -5,8 +5,6 @@ module.exports = function(grunt) {
 		config: {
 			pkg: require('./package.json')
 		},
-    loadGruntTasks: {
-      pattern: ['grunt-*', '!grunt-lib-phantomjs', '!grunt-template-jasmine-istanbul']
-    }
+    jitGrunt: true
   });
 };

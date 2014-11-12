@@ -1,15 +1,16 @@
 .Thing {
   margin: 10em auto;
   padding: 1em;
-  background-color: green;
-  width: 17em;
-  transition: 1s; }
+  background-color: #da4f49;
+  width: 25em;
+  -webkit-transition: 1s;
+          transition: 1s; }
   .Thing:hover {
-    transform: rotate(180deg); }
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg); }
   .Thing .Thing-head {
     color: white;
     font-size: 4em; }
   .Thing .Thing-head--awesome {
     color: purple; }
-
-/*# sourceMappingURL=myapp.css.map */

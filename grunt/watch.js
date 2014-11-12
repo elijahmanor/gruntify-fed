@@ -5,6 +5,6 @@ module.exports = {
   },
   sass: {
     files: 'src/scss/**/*.scss',
-    tasks: ['play:grunt', 'scsslint', 'sass']
+    tasks: ['play:grunt', 'sass']
   }
 };

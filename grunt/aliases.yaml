@@ -4,7 +4,6 @@ default:
   - 'jscs'
   - 'jasmine'
   - 'uglify'
-  - 'scsslint'
   - 'sass'
   - 'autoprefixer'
   - 'notify'
@@ -26,4 +25,3 @@ test:
 lint:
   - 'jshint'
   - 'jscs'
-  - 'scsslint'

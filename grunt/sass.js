@@ -1,10 +1,7 @@
 module.exports = {
-  options: {
-    sourceMap: true,
-  },
   dev: {
     options: {
-      outputStyle: 'nested'
+      style: 'nested'
     },
     files: {
       'dist/css/myapp.css': 'src/scss/myapp.scss'
@@ -12,7 +9,7 @@ module.exports = {
   },
   prod: {
     options: {
-      outputStyle: 'compressed'
+      style: 'compressed'
     },
     files: {
       'dist/css/myapp.min.css': 'src/scss/myapp.scss'
