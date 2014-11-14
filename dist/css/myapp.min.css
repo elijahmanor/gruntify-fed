@@ -1,14 +1,11 @@
 .Thing {
   margin: 10em auto;
   padding: 1em;
-  background-color: #da4f49;
+  background-color: green;
   width: 25em;
-  -webkit-transition: 1s;
-          transition: 1s; }
+  transition: 1s; }
   .Thing:hover {
-    -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-            transform: rotate(180deg); }
+    transform: rotate(180deg); }
   .Thing .Thing-head {
     color: white;
     font-size: 4em; }
